@@ -10,19 +10,19 @@ let total;
 switch(operator){
     case "*":
         total = num_1 * num_2;
-        console.log("This is your total multiplication:" + total);
+        alert("This is your total multiplication:" + "\t" + total);
     break;
     case "/":
         total = num_1 /num_2;
-        console.log("This is your total division:" + total.toFixed(2));
+        alert("This is your total division:" + "\t" + total.toFixed(2));
     break;
     case "+":
         total = num_1 + num_2;
-        console.log("This is your total addition:" + total);
+        alert("This is your total addition:" + "\t" + total);
         break;
     case "-":
         total = num_1 - num_2;
-        console.log("This is your total subtraction:" + total);
+        alert("This is your total subtraction:" +"\t" + total);
         break;
     default:
         console.log("Oops :( you didn't input the right operator \n Please choose one of these operators (+ - / *)");
